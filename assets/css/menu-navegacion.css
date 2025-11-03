@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+body, h1, h2, h3, p {
+  font-family: 'Inter Tight', sans-serif;
+}
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background: url('../img/index/fondo.jpg') center center / cover no-repeat fixed;
+  position: relative;
+}
+
+
+header, main, footer {
+  position: relative;
+  z-index: 1;
+}
+
+
+main.contenido-principal {
+  background: rgba(255,255,255,0.8);
+  border-radius: 12px;
+  padding: 2em;
+  margin: 2em auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+
+
+.menu-navegacion ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-navegacion a.boton {
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+.menu-navegacion a.boton:hover {
+  background: #f0f0f0;
+}
+footer {
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+margin-top: auto;
+width: 100% ;
+} 
+footer {
+  width: 100%;
+  margin-top: auto;
+  background: black;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em 0;
+  position: relative;
+  z-index: 1;
+}

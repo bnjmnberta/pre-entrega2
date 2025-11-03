@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+body, h1, h2, h3, p {
+    font-family: 'Inter Tight', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+.proyectos-web {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  grid-template-rows: repeat(2, auto);   /* 2 filas */
+    gap: 2em;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.header-menu-desarrollos-web {
+    background: #ac6d6d;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: size 1.2em; ;
+}
+.menu-navegacion-desarrollos-web {
+    display: flex;
+    gap: 2em;
+    justify-content: flex-end;
+    width: 100%;
+}
+.menu-navegacion-desarrollos-web a {
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+}

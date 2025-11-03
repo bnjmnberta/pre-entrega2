@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+body, h1, h2, h3, p {
+  font-family: 'Inter Tight', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+}
+.header-sobre-mi {
+  background: #000000;
+  padding: 0.5em 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+}
+.menu-navegacion-sobre-mi {
+  display: flex;
+  gap: 2em;
+  justify-content: flex-end;
+  width: 100%;
+}
+.menu-navegacion-sobre-mi a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+main .habilidades {
+    text-align: left;
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+main .lista-de-habilidades {
+text-align: left;
+margin-left: 2em;
+}
+main .intereses {
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

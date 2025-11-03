@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+body, h1, h2, h3, p {
+  font-family: 'Inter Tight', sans-serif;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+}
+.header-contacto {
+  background: #000000;
+  padding: 0.5em 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: size 1.2em; ;
+}
+.menu-navegacion-contacto {
+  display: flex;
+  gap: 2em;
+}
+.menu-navegacion-contacto a {
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+}
+.fondo-imagen {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background: #000 url('../img/contactos/contacto-fondo.jpg') no-repeat center;
+  overflow: hidden;
+}
+.texto-central {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 400%;
+}
+.iconos-redes {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  display: flex;
+  gap: 1.5em;
+}
+.icono-red {
+  width: 40px;
+  height: 40px;
+  background: #bbb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-contacto {
+  background: #ffffff;
+  color: #222;
+  padding: 12em;
+  display: flex;
+  gap: 7em;
+  justify-content: center;
+}
+.form-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  font-size: 150%;
+}
+.form-col input, .form-col textarea {
+  width: 100%;
+  padding: 2em;
+  border: none;
+  background: #a5a1a1;
+  border-radius: 4px;
+}
+.titulo-form {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
