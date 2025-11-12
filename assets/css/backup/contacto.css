@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font: size 1.2em; ;
+  font-size: 1.2em;
 }
 .menu-navegacion-contacto {
   display: flex;
